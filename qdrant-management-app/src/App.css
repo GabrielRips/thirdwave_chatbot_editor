@@ -1,0 +1,186 @@
+.app-container { 
+  padding: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  font-family: Arial, sans-serif; 
+}
+
+header { 
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+h1 { 
+  color: #333; 
+}
+
+.entry-card { 
+  border: 1px solid #ddd; 
+  padding: 15px; 
+  margin: 10px 0; 
+  border-radius: 5px; 
+  background: #f9f9f9; 
+}
+
+.entry-actions { 
+  margin-top: 10px; 
+}
+
+.entry-actions button { 
+  margin-right: 10px; 
+  padding: 5px 10px; 
+  background: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.entry-actions button:hover { 
+  background: #0056b3; 
+}
+
+.tag { 
+  background: #e0e0e0; 
+  padding: 2px 8px; 
+  margin: 0 5px; 
+  border-radius: 12px; 
+  display: inline-block; 
+}
+
+.edit-form { 
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  background: #fff; 
+}
+
+.form-group { 
+  margin-bottom: 15px; 
+}
+
+.form-group label { 
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+}
+
+.form-group input, .form-group textarea { 
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.tag-input-container { 
+  display: flex; 
+  gap: 10px; 
+}
+
+.tag-input-container button { 
+  padding: 8px 12px; 
+  background: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.tag-input-container button:hover { 
+  background: #218838; 
+}
+
+.current-tags { 
+  margin-top: 10px; 
+}
+
+.current-tags .tag { 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 5px; 
+}
+
+.remove-tag { 
+  cursor: pointer; 
+  color: #dc3545; 
+  font-weight: bold; 
+}
+
+.form-actions { 
+  display: flex; 
+  gap: 10px; 
+}
+
+.form-actions button { 
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.form-actions button:first-child { 
+  background: #007bff; 
+  color: white; 
+}
+
+.form-actions button:last-child { 
+  background: #6c757d; 
+  color: white; 
+}
+
+.search-filter-container { 
+  margin: 20px 0; 
+}
+
+.search-box input { 
+  width: 100%; 
+  max-width: 400px; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.tag-filter h3 { 
+  margin: 10px 0; 
+  font-size: 1.1em; 
+}
+
+.tag-list .tag { 
+  cursor: pointer; 
+}
+
+.tag-list .tag.selected { 
+  background: #007bff; 
+  color: white; 
+}
+
+.add-button { 
+  margin: 10px 0; 
+  padding: 8px 16px; 
+  background: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
+
+.add-button:hover { 
+  background: #218838; 
+}
+
+.loading, .no-results, .error { 
+  text-align: center; 
+  margin: 20px 0; 
+}
+
+.error button { 
+  margin-left: 10px; 
+  padding: 5px 10px; 
+  background: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+}
